@@ -109,7 +109,7 @@ Box.test(fit$residuals^2,lag=15)
 # TESTING NORMALITY
 
 # SAPHIRO TEST
-# HO: Not a normal distribution / HA: Normal distribution
+# HO: Normal distribution / HA: Not a normal distribution
 # If p-value>0.05: H0 / p-value<0.05: HA
 
 shapiro.test(fit$residuals)
